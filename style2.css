@@ -57,11 +57,11 @@ body {
 .producttypes .active2 {
     color: red;
 }
-.mcb,.wires,.light,.fans{
+.switchgears,.mcb,.wires,.light,.fans{
     display: flex;
     flex-direction: column;
 }
-.Mcb-item,.light-item,.fan-item{
+.switchgears-item,.Mcb-item,.light-item,.fan-item{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -102,6 +102,20 @@ body {
        
     }
    
+}
+.switchgears{
+    .im{
+        
+        img{
+            color: #1c1b18;
+            height: 40px;
+            width: auto;
+            filter: brightness(0);
+            align-self: center;
+        }
+
+    }
+    
 }
 .description{
     position: relative;
