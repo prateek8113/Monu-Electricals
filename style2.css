@@ -57,17 +57,17 @@ body {
 .producttypes .active2 {
     color: red;
 }
-.switchgears,.mcb,.wires,.light,.fans{
+.geysers,.switchgears,.mcb,.wires,.light,.fans{
     display: flex;
     flex-direction: column;
 }
-.switchgears-item,.Mcb-item,.light-item,.fan-item{
+.geysers-item,.switchgears-item,.Mcb-item,.light-item,.fan-item{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
     img{
     max-width: 90%;
-    max-height: 600px;
+    max-height: 500px;
     height: auto;
     }
     
@@ -105,12 +105,13 @@ body {
 }
 .switchgears{
     .im{
+        display: inline;
         
         img{
-            color: #1c1b18;
+            
             height: 40px;
             width: auto;
-            filter: brightness(0);
+            
             align-self: center;
         }
 
